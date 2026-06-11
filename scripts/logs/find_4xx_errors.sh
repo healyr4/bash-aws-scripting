@@ -3,7 +3,7 @@
 # Print the unique IP addresses that have got 4XX errors
 # Print the IP address, number of times it appeared
 # Print in descending order by count of times appeared
-# Example below
+# Example below:
 # 192.0.2.44 - - [28/May/2026:09:00:07 +0000] "POST /api/login HTTP/1.1" 401 91 "https://shop.example.com/login" "Mozilla/5.0" 0.020
 
 set -euo pipefail
