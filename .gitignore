@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Logs generated during testing
+*.tmp
+*.out
+*.rotated
+*.gz
+
+# Local environment files
+.env
+.env.*
+
+# AWS credentials should never be committed
+.aws/
+credentials
+config
+
+# IDE files
+.idea/
